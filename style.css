@@ -1,0 +1,219 @@
+#menu2{
+  	background-image:url("images/Banniére.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:20%;   
+}
+
+div ul li a :hover{
+	color:  #5fb5ef ;
+}
+
+#menu1{
+  font-family: comfortaa bold;
+  color: #5fb5ef;
+  font-size: 16pt;
+}
+#menu11{
+  font-family: comfortaa bold;
+  color: white;
+  font-size: 16pt;
+  border: 1px solid #5fb5ef ;
+  background-color: #5fb5ef;
+  border-radius: 10px;
+  padding: 4px 10px;
+}
+.titre1{
+  margin-top: -150px;
+}
+
+
+h1{
+  font-family: comfortaa bold;
+  font-size: 100px;
+  color: white;
+ 
+}
+h3{
+  font-family: comfortaa bold;
+  font-size: 25px;
+  
+}
+
+.backtitre{
+	background-color: transparent;
+	width: 100%;
+	height: 15%;
+	margin-top: -15%;
+}
+
+
+#prix {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  background-color: #5fb5ef;
+}
+
+.police{
+	font-family: comfortaa;
+}
+
+.fleche{
+
+}
+
+.contact{
+	color:#5fb5ef;
+}
+
+.samaformulaire{
+	
+	border-radius: 10px;
+	border: solid 2px #5fb5ef;
+	width: 100%;
+}
+
+footer{
+	background-color: #5fb5ef;
+	color: white;
+}
+
+.backrealisation{
+	background-color: #5fb5ef;
+	margin-top: -2% ;
+}
+
+.titrerealisation{
+	color: white;
+}
+.btnrealisation{
+	border-radius: 10px;
+	border: solid 2px white;
+	width: 40%;
+}
+
+.backformule{
+	background-image:url("images/Banniére.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.services::before {
+  content: "";
+  background: #040404 url("../images/Banniére.jpg") top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .services::before {
+   
+  }
+}
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+section .container {
+  /* background: rgba(0, 0, 0, 0.9); */
+  /* background: #040404 url("../img/Banniére.jpg") top right no-repeat; */
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  section {
+    top: 120px;
+  }
+}
+@media (max-width: 576px) {
+  .icon-box h4 {
+    font-size: 18px;
+  }
+  .icon h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .services .icon p{
+    font-size: 15px;
+  }
+  .services .icon h4{
+    font-size: 16px;
+  }
+  .services .title h4{
+    font-size: 16px;
+  }
+  .services .container .section-title p{
+    font-size: 13px;
+  }
+}
+.services .icon-box {
+  height: 85vh;
+  text-align: center;
+  background: #5fb5ef;
+  padding: 80px 20px;
+  border-radius: 50px; 
+  transition: all ease-in-out 0.3s;
+  margin-bottom: 0px;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: auto;
+  height: 70vh;
+  background: #fafcfb;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.services .icon-box .title h4 {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 28px;
+  margin-top: -60px;
+}
+@media (max-width: 768px) {
+  .services .icon{
+    margin: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.services .icon h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 35px;
+   color:#5fb5ef;
+}
+.services .icon-box .icon P{
+  font-weight: 600;
+  /* margin-bottom: 15px; */
+  font-size: 27px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color:#5fb5ef;
+}
+.services h4,p,h2{
+  font-family: 'comfortaa',sans-serif;
+}
+.services .section-title p {
+  line-height: 18px;
+  font-size: 19px;
+  margin-bottom: 0;
+}
+
